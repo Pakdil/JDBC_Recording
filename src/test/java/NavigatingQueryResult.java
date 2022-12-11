@@ -14,6 +14,7 @@ public class NavigatingQueryResult {
 
             Statement stmt = con.createStatement();
 
+
             ResultSet rs = stmt.executeQuery("SELECT * FROM REGIONS");
 
             rs.next();
